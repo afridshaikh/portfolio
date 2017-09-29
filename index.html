@@ -14,8 +14,9 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/font-mfizz.css">
   </head>
   <body>
@@ -149,7 +150,7 @@
     <div class="non-tech-skills">
       <h2> <b> <i class="fa fa-handshake-o"></i> Non Technical Skills </b> </h2>
       <div class="container">
-        <div class="col-md-6 left">
+        <div class="col-md-6 col-sm-6 left">
           <ul>
             <li> Quick learner</li>
             <li> Leadership</li>
@@ -157,7 +158,7 @@
             <li> Self-motivated</li>
           </ul>
         </div>
-        <div class="col-md-6 right">
+        <div class="col-md-6 col-sm-6 right">
           <ul>
             <li> Time Management</li>
             <li> Hard-working</li>
@@ -263,10 +264,20 @@
     </div>
   </section>
 
+
+  <section class="retirement">
+    <h1> <b><i class="fa fa-wheelchair"></i> Retirement</b> </h1>
+    <hr>
+    <div class="container">
+      <h3> Want to work till&#44; I see a car on my desktop wallpaper is parked in my garage.</h3>
+    </div>
+  </section>
+
+
 <hr style="margin-top: 0; margin-bottom: 30px; border-top: 1px solid #27323a">
   <section class="quotes">
 
-    <div class="container">
+    <div class="container quotes-container">
       <div class="quote-content">
         <h2>
           <i class="fa fa-quote-left"></i> Most good programmers do programming not because they expect to get paid
@@ -354,10 +365,11 @@
         }
       });
 
-
-      $( ".quote-content" ).each(function( index ) {
-    console.log( index + ": " + $( this ).text() );
-  });
+      // $('.quote-content').hide();
+      //
+      // $('.quote-content').each(function( i ) {
+      //     $(this).fadeIn(300).delay(5000).fadeOut(300);
+      // });
 
 
     </script>

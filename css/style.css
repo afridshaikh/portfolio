@@ -31,7 +31,7 @@ img { width: 500px; height: 100%; display: inline-block; }
 
 .head .right .msg { font-size: 3.5rem; }
 
-.head .right .full-name { padding-top: 50px; padding-bottom: 5px; font-size: 3rem; }
+.head .right .full-name { padding-top: 50px; padding-bottom: 5px; font-size: 4rem; }
 
 .head .right .degree { font-size: 2.5rem; padding-bottom: 5px; }
 
@@ -47,9 +47,9 @@ img { width: 500px; height: 100%; display: inline-block; }
 
 .edu hr { margin-top: 0; margin-bottom: 30px; border-top: 1px solid #27323a; }
 
-.edu table th { text-align: center; background-color: #27323a; color: white; font-size: 2.75rem; padding: 10px; }
+.edu table th { text-align: center; background-color: #27323a; color: white; font-size: 3rem; padding: 10px; }
 
-.edu table tr { text-align: center; font-weight: 600; font-size: 2rem; padding: 5px; }
+.edu table tr { text-align: center; font-weight: 600; font-size: 2.5rem; padding: 5px; }
 
 .skills { padding: 20px; font-family: 'Josefin Sans', sans-serif; }
 
@@ -111,17 +111,29 @@ img { width: 500px; height: 100%; display: inline-block; }
 
 .achievement h3 { font-size: 2.5rem; }
 
-.extra { margin-top: 30px; padding: 20px; font-family: 'Antic Slab', serif; }
+.extra { margin-top: 30px; padding: 20px; font-family: 'Josefin Sans', sans-serif; }
 
 .extra h1 { padding-bottom: 0; }
 
-.extra h2 { font-size: 2.5rem; }
+.extra h2 { font-size: 2.7rem; line-height: 40px; }
 
 .extra hr { margin-top: 0; margin-bottom: 30px; border-top: 1px solid #27323a; }
 
 .extra h2.java { font-size: 4rem; }
 
+.retirement { margin-top: 30px; margin-bottom: 50px; padding: 20px; font-family: 'Lato', sans-serif; }
+
+.retirement .container { text-align: center; font-weight: 600; }
+
+.retirement h1 { padding-bottom: 0; }
+
+.retirement hr { margin-top: 0; margin-bottom: 30px; border-top: 1px solid #27323a; }
+
+.retirement h3 { font-size: 3.2rem; }
+
 .quotes { text-align: center; }
+
+.quotes .quote-content h3 { font-size: 2.8rem; }
 
 .page-footer { padding: 20px; margin-top: 50px; background-color: #27323a; color: #eeeeee; font-family: 'Mada', sans-serif; }
 
