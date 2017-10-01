@@ -5,13 +5,13 @@ img { width: 500px; height: 100%; display: inline-block; }
 
 .nav { background-color: #27323a; font-family: 'Comfortaa', cursive; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
-.nav .name { font-size: 5rem; padding-left: 50px; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; color: white; opacity: 0.8; }
+.nav .name { font-size: 5rem; padding-top: 5px; padding-left: 50px; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; color: white; opacity: 0.8; }
 
 .nav .name:hover { opacity: 1; }
 
 .nav .nav-menu { padding-right: 20px; color: white; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -webkit-flex-direction: row-reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; padding-top: 1%; padding-bottom: 1%; }
 
-.nav .nav-menu .menu-names { float: right; list-style: none; display: inline-block; }
+.nav .nav-menu .menu-names { margin-bottom: 0; padding-top: 10px; float: right; list-style: none; display: inline-block; }
 
 .nav .nav-menu .menu-names .menu-name { padding-left: 10px; padding-right: 10px; opacity: 0.8; display: inline-block; color: white; }
 
@@ -22,6 +22,12 @@ img { width: 500px; height: 100%; display: inline-block; }
 .nav .nav-menu .menu-names .menu-name a:visited { color: white; }
 
 .nav .nav-menu .menu-names .menu-name:hover { opacity: 1; }
+
+.nav .nav-menu .menu-names .menu-name:nth-child(1) { margin-right: 30px; }
+
+.nav .nav-menu .menu-names .menu-name:nth-child(2) { margin-right: 20px; }
+
+.nav .nav-menu .menu-names .menu-name:nth-child(3) { margin-right: 20px; }
 
 .head { position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: stretch; -webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch; padding-top: 10px; }
 
@@ -50,6 +56,8 @@ img { width: 500px; height: 100%; display: inline-block; }
 .edu table th { text-align: center; background-color: #27323a; color: white; font-size: 3rem; padding: 10px; }
 
 .edu table tr { text-align: center; font-weight: 600; font-size: 2.5rem; padding: 5px; }
+
+.edu table tr:hover { background-color: #27323a; color: white; -webkit-transform: scale(1.01); -ms-transform: scale(1.01); transform: scale(1.01); -webkit-transition: all 100ms; -o-transition: all 100ms; transition: all 100ms; }
 
 .skills { padding: 20px; font-family: 'Josefin Sans', sans-serif; }
 
